@@ -189,7 +189,7 @@
       <div class="post-body">
           <h2 id="关于soyo-Ling"><a href="#关于soyo-Ling" class="headerlink" title="关于soyo Ling"></a>关于soyo Ling</h2><p>目前就读于复旦大学数学科学学院，大二学生。动画爱好者，正在尝试写作。<br>喜欢张枣、华莱士·史蒂文斯、T·S·艾略特、博尔赫斯、陀思妥耶夫斯基、卡尔维诺、山田尚子、出崎统、安浓高志、望月智充、京都动画、侯孝贤、小津安二郎、（十五年前的江南）。</p>
 <h2 id="关于本站"><a href="#关于本站" class="headerlink" title="关于本站"></a>关于本站</h2><p>这里是我发布文章的地方，包括评论、开发日志、学习笔记、同人文等等。<br>本站背景图为动画《BanG Dream it’s MyGO!!!!!》中的角色长崎素世，画师是B站的@haitomutsumi，风格化制作来自<a target="_blank" rel="noopener" href="https://lab.magiconch.com/one-last-image/">https://lab.magiconch.com/one-last-image/</a> ，特此致谢。</p>
-<h2 id="联系方式"><a href="#联系方式" class="headerlink" title="联系方式"></a>联系方式</h2><p>邮箱：<a href="mailto:&#50;&#57;&#54;&#x36;&#50;&#53;&#x33;&#x35;&#x35;&#x37;&#x40;&#x71;&#113;&#46;&#99;&#111;&#109;">2966253557@qq.com</a><br>bangumi：<a target="_blank" rel="noopener" href="https://bgm.tv/user/852327">https://bgm.tv/user/852327</a></p>
+<h2 id="联系方式"><a href="#联系方式" class="headerlink" title="联系方式"></a>联系方式</h2><p>邮箱：<a href="mailto:&#x32;&#x39;&#54;&#x36;&#x32;&#53;&#51;&#53;&#53;&#55;&#64;&#113;&#x71;&#46;&#99;&#x6f;&#109;">2966253557@qq.com</a><br>bangumi：<a target="_blank" rel="noopener" href="https://bgm.tv/user/852327">https://bgm.tv/user/852327</a></p>
 
       </div>
       
@@ -376,13 +376,20 @@
 <script src="https://unpkg.com/oh-my-live2d@latest"></script>
 <script>
   OML2D.loadOml2d({
+    dockedPosition: "right",
+    statusBar: {
+      disable: true
+    },
+    menus: {
+        disable: true
+    },
+
     models: [
       {
-        // 关键：将这里的 soyo.model.json 替换为你实际的配置文件名！
-        // 确保路径和你放进 source 里的层级完全一致
-        path: '/live2d/soyo/soyo.model.json', 
+        scale: 0.12, 
+        path: '/live2d/soyo/soyo.model.json'
       }
-    ],
+    ]
   });
 </script>
 
