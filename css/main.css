@@ -1169,7 +1169,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #11e2ff;
+  background: #7aacbd;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2463,4 +2463,49 @@ body {
 }
 .comments {
   background: rgba(255,255,255,0.7) none repeat scroll !important;
+}
+.post-body .footnote-ref {
+  font-size: 0.72em;
+  line-height: 0;
+  margin-left: 0.1em;
+  vertical-align: super;
+}
+.post-body .footnote-ref a,
+.post-body .footnote-backref {
+  border-bottom: 0;
+}
+.post-body .poem-footnotes {
+  border-top: 1px solid rgba(0,0,0,0.14);
+  color: var(--text-color);
+  font-size: 0.86em;
+  line-height: 1.7;
+  margin-top: 3em;
+  opacity: 0.88;
+  padding-top: 1em;
+}
+.post-body .poem-footnotes::before {
+  content: '注释';
+  display: block;
+  font-size: 0.95em;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.75em;
+}
+.post-body .poem-footnotes ol {
+  margin: 0;
+  padding-left: 1.6em;
+}
+.post-body .poem-footnotes li {
+  margin: 0.55em 0;
+  scroll-margin-top: 2em;
+}
+.post-body .poem-footnotes li p {
+  margin: 0;
+}
+.post-body .footnote-backref {
+  margin-left: 0.4em;
+  white-space: nowrap;
+}
+.post-body .poem-footnotes li:target {
+  background: rgba(255,230,140,0.25);
 }
